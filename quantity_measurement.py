@@ -71,8 +71,3 @@ class QuantityMeasurement:
     def f_to_c(self, f):
         result = 100
         return result
-
-
-qm = QuantityMeasurement()
-a = qm.feet_to_inch("null")
-print(a)
